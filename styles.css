@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Oswald:wght@200..700&family=Poetsen+One&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Noto Sans KR", serif;
+    /* background: whitesmoke; */
+}
+
+h1{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+/* loader */
+
+.loader {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    /* background: rgb(255, 255, 255, 0.8); */
+}
+
+.loader img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Image-Container*/
+
+.img-container{
+    margin: 10px 30%;
+}
+.img-container img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* Media Query for large Smartphone*/
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 20px;
+    }
+    .img-container{
+        margin: 10px;
+    }
+}
